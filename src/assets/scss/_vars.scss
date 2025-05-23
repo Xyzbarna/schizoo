@@ -1,0 +1,47 @@
+// Colors
+$color-darkest: #16161D; // 22,22,29
+$color-lightest: #FFF; // 255,255,255
+$color-schizoo: #80D080; // 128,208,128
+
+$color-main: #A57865; // 165,120,101
+$color-alt-main: #E68A4E; // 230,138,78
+$color-1st: #6D90B0; // 109,144,176
+$color-alert: #D65A50; // 214,90,80
+$color-accept: #6B9E6D; // 107,158,109
+
+$color-ea: #00A650; // 0,166,80
+$color-eb: #4EB848; // 78,184,72
+$color-ec: #BED730; // 190,215,48
+$color-ed: #FFF200; // 255,242,0
+$color-ee: #FDB812; // 253,184,18
+$color-ef: #F36F21; // 243,111,33
+$color-eg: #ED1C24; // 237,28,36
+
+$color-desc: #00D394; // 0,211,148
+
+$color-a: #66C88F; // 102,200,143
+$color-b: #CF1D5D; // 207,29,93
+$color-c: #BCA21A; // 188,162,26
+$color-d: #3177B8; // 49,119,184
+
+
+$color-warning: $color-c;
+$color-1st-action: $color-d;
+$color-accept: $color-a;
+
+
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+
+$font: 'Barlow', serif;
+$font-condensed: 'Barlow Condensed', serif;
+$font-semi-condensed: 'Barlow Semi Condensed', serif;
+$font-mono: 'Inconsolata', monospace;
+

@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:invalid {
+    box-shadow: none;
+  }
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  min-height: 100vh; 
+}
+
+html {
+
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-wrap: pretty;
+  margin: 0;
+}
+
+button { 
+  padding: 0; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  text-wrap: balance;
+  padding: 0;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0; 
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+figure,
+menu {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  vector-effect: non-scaling-stroke;
+
+  path {
+    vector-effect: non-scaling-stroke;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

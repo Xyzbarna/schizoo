@@ -1,0 +1,206 @@
+// Mixins width:
+@mixin bp-360 { 
+  @media (min-width: 360px) {
+    @content;
+  } 
+}
+
+@mixin bp-375 { 
+  @media (min-width: 375px) {
+    @content;
+  } 
+}
+
+@mixin bp-400 { 
+  @media (min-width: 400px) {
+    @content;
+  } 
+}
+
+@mixin bp-450 { 
+  @media (min-width: 450px) {
+    @content;
+  } 
+}
+
+@mixin bp-464 { 
+  @media (min-width: 464px) {
+    @content;
+  } 
+}
+
+@mixin bp-500 { 
+  @media (min-width: 500px) {
+    @content;
+  } 
+}
+
+@mixin bp-550 { 
+  @media (min-width: 550px) {
+    @content;
+  } 
+}
+
+@mixin bp-600 { 
+  @media (min-width: 600px) {
+    @content;
+  } 
+}
+
+@mixin bp-650 { 
+  @media (min-width: 650px) {
+    @content;
+  } 
+}
+
+@mixin bp-700 { 
+  @media (min-width: 700px) {
+    @content;
+  } 
+}
+
+@mixin bp-750 { 
+  @media (min-width: 750px) {
+    @content;
+  } 
+}
+
+@mixin bp-800 { 
+  @media (min-width: 800px) {
+    @content;
+  } 
+}
+
+@mixin bp-850 { 
+  @media (min-width: 850px) {
+    @content;
+  } 
+}
+
+@mixin bp-900 { 
+  @media (min-width: 900px) {
+    @content;
+  } 
+}
+
+// 62rem
+@mixin bp-992 { 
+  @media (min-width: 992px) {
+    @content;
+  } 
+}
+
+@mixin bp-1000 { 
+  @media (min-width: 1000px) {
+    @content;
+  } 
+}
+
+@mixin bp-1024 { 
+  @media (min-width: 1024px) {
+    @content;
+  } 
+}
+
+@mixin bp-64 { 
+  @media (min-width: 64rem) {
+    @content;
+  } 
+}
+
+
+
+
+
+
+// Screen size variables
+$break-A: 400px;
+$break-A1pre: 499px;
+$break-A1: 500px;
+$break-B: 600px;
+$break-B1: 700px;
+$break-Cpre: 799px;
+$break-C: 800px;
+$break-C1: 900px;
+$break-D: 1000px;
+$break-D1: 1100px;
+$break-E: 1200px;
+
+@mixin bp-A { 
+  @media (min-width: $break-A) {
+    @content;
+  } 
+}
+
+@mixin bp-A-A1 { 
+  @media (min-width: $break-A) and (max-width: $break-A1pre) {
+    @content;
+  } 
+}
+
+@mixin bp-A-C { 
+  @media (min-width: $break-A) and (max-width: $break-Cpre) {
+    @content;
+  } 
+}
+
+@mixin bp-A1 { 
+  @media (min-width: $break-A1) {
+    @content;
+  } 
+}
+
+@mixin bp-A1-C { 
+  @media (min-width: $break-A1) and (max-width: $break-Cpre) {
+    @content;
+  } 
+}
+
+@mixin bp-B { 
+  @media (min-width: $break-B) {
+    @content;
+  } 
+}
+
+@mixin bp-B1 { 
+  @media (min-width: $break-B1) {
+    @content;
+  } 
+}
+
+@mixin bp-C {
+  @media (min-width: $break-C) {
+    @content;
+  }
+}
+
+@mixin bp-C1 {
+  @media (min-width: $break-C1) {
+    @content;
+  }
+}
+
+@mixin bp-D {
+  @media (min-width: $break-D) {
+    @content;
+  }
+}
+
+@mixin bp-D1 {
+  @media (min-width: $break-D1) {
+    @content;
+  }
+}
+
+@mixin bp-E {
+  @media (min-width: $break-E) {
+    @content;
+  }
+}
+
+// Mixins height:
+@mixin bph-A1 {
+  @media (min-height: $break-A1) {
+    @content;
+  }
+}

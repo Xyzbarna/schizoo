@@ -1,0 +1,92 @@
+// @mixin hoverItemIcon {
+//   &:hover {
+//     background-color: rgba($color-main, .25);
+//   }
+// }
+
+// @mixin buttonIconMenu($colorA: $color-main, $colorB: $color-lightest, $class: '') {
+//   #{$class}.sd-button {
+//     background-color: rgba($color-darkest, .98);
+
+//     &:hover {
+//       .sd-button__bg {
+//         background-color: rgba($colorB, .05);
+//       }
+
+//       .sd-svg__stroke {
+//         stroke: rgba($colorA, 1);
+//       }
+//     }
+
+//     &:active {
+//       .sd-button__bg {
+//         background-color: rgba($colorA, .7);
+//       }
+
+//       .sd-svg__stroke {
+//         stroke: rgba($color-darkest, 1);
+//       }
+//     }
+
+//     &--active {
+//       .sd-svg__stroke {
+//         stroke: rgba($colorA, 1);
+//       }
+//     }
+
+//     &__bg {
+//       background-color: rgba($colorB, .01);
+
+//       &--active {
+//         background-color: rgba($colorB, .03);
+//       }
+//     }
+//   }
+// }
+
+
+// @mixin buttonColored($color: $color-main, $class: ''){
+//   #{$class}.sd-button {
+//     .sd-svg {
+//       &__stroke {
+//         stroke: $color;
+//       }
+//     }
+
+//     &__txt-bg {
+//       background-color: rgba($color, .2);
+//     }
+
+//     &__txt {
+//       color: rgba($color, 1);
+//     }
+
+//     &__icon-bg {
+//       background-color: rgba($color, .3);
+//     }
+
+//     &:hover {
+//       .sd-button {
+//         &__txt-bg {
+//           background-color: rgba($color, .3);
+//         }
+
+//         &__icon-bg {
+//           background-color: rgba($color, .4);
+//         }
+//       }
+//     }
+
+//     &:active {
+//       .sd-button {
+//         &__txt-bg {
+//           background-color: rgba($color, .5);
+//         }
+        
+//         &__icon-bg {
+//           background-color: rgba($color, .6);
+//         }
+//       }
+//     }
+//   }
+// }
