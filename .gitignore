@@ -1,0 +1,45 @@
+# 📦 Node
+node_modules/
+
+# 🏗️ Build output
+dist/
+build/
+.vite/
+.temp/
+.cache/
+
+# 📄 Configuració i entorns
+.env
+# .env.local, .env.production, etc.
+.env.*
+firebase-debug.log
+.firebaserc
+
+# 💻 Sistema
+.DS_Store
+Thumbs.db
+
+# 💅 Editor i IDE
+.vscode/
+.idea/
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# 🔒 Clau de seguretat o secrets
+*.key
+*.pem
+*.crt
+
+# 🧪 Test coverage
+coverage/
+.nyc_output/
+
+# 📂 Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 🔀 Git conflicted files
+*.orig
